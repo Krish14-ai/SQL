@@ -6,5 +6,9 @@ add email Varchar(100)
 Alter Table Students
 drop column email
 
+-- Adding Bday column
+alter table students
+add bday date; 
+
 -- View all the Students
 select * from Students 
