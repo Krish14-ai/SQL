@@ -26,3 +26,4 @@ add Column date_of_birth DATE after age;
 
 use Chapter_2;
 select * from students
+
