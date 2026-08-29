@@ -23,3 +23,4 @@ where id between 1 and 4
 -- Id by any special Condition
 select *  from Students  
 where id %2 = 0 
+
