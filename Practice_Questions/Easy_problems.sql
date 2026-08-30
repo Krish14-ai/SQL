@@ -63,3 +63,9 @@ FROM Students_new;
 
 SELECT name, gender, marks
 FROM Students_new;
+
+-- Q5) Display all students whose age is *20*.
+
+select * from students_new
+where age = 20
+
