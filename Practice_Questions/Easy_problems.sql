@@ -78,3 +78,13 @@ where marks > 80
 
 SELECT * from students_new
 where age >= 21
+
+-- Q9) Display students who are female.
+
+select * from students_new
+where gender = 'female'
+
+-- Q10) Display students who are male AND have marks greater than 70.
+
+SELECT * from students_new
+where gender = 'male' and marks > 70
