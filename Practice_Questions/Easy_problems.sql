@@ -69,3 +69,12 @@ FROM Students_new;
 select * from students_new
 where age = 20
 
+-- Q6) Display students whose marks are greater than 80
+
+select * from students_new 
+where marks > 80
+
+-- Q8) Display students whose age is greater than or equal to 21.
+
+SELECT * from students_new
+where age >= 21
