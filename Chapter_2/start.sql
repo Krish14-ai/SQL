@@ -6,6 +6,7 @@ CREATE DATABASE If NOT EXISTS Chapter_2;
 USE Chapter_2; 
 
 CREATE TABLE students (
+    -- Primary key should not be same and cannot be NULL
     std_id VARCHAR(5) PRIMARY KEY,
     name VARCHAR(50),
     age INT,
@@ -39,4 +40,12 @@ USE Chapter_2;
 
 DESCRIBE students; --Describe is used to get the description of all columns
 
+-----------------------------------------------------------------------------------
+
+-- To look at all the DataBases we have created so far we use 
+show DATABASES
+
+-- To look at all the Tables in a Specific DataBase
+use Chapter_2;
+Show Tables
 
