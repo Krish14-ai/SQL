@@ -13,5 +13,10 @@ VALUES
 (106, "Arpit", 19, '2007-02-02',"other",'2222222222',"arpit@gmail.com", 0);
 
 select * from students
+-- Learning Constraints 
+
+
+ALTER TABLE students
+MODIFY COLUMN email VARCHAR(100) UNIQUE;
 
 
